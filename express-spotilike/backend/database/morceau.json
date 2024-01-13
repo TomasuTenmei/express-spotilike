@@ -1,0 +1,1507 @@
+[
+    {
+        "titre": "Tim McGraw",
+        "duree": "3:54",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Picture To Burn",
+        "duree": "2:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "A Perfectly Good Heart",
+        "duree": "3:40",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "The Outside",
+        "duree": "3:27",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Tied Together with a Smile",
+        "duree": "4:08",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Stay Beautiful",
+        "duree": "3:58",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Should've Said No",
+        "duree": "4:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Our Song",
+        "duree": "3:22",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Innocent",
+        "duree": "5:02",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Come Back, Be Here",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Taylor Swift"
+    },
+    {
+        "titre": "Fearless",
+        "duree": "4:01",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Fifteen",
+        "duree": "4:54",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Love Story",
+        "duree": "3:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Hey Stephen",
+        "duree": "4:14",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "White Horse",
+        "duree": "3:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "You Belong With Me",
+        "duree": "3:52",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Breathe",
+        "duree": "4:23",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Tell Me Why",
+        "duree": "3:21",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "You're Not Sorry",
+        "duree": "4:21",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "The Way I Loved You",
+        "duree": "4:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Forever and Always",
+        "duree": "3:46",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "The Best Day",
+        "duree": "4:05",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Change",
+        "duree": "4:40",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Fearless"
+    },
+    {
+        "titre": "Mine",
+        "duree": "3:50",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Sparks Fly",
+        "duree": "4:20",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Back to December",
+        "duree": "4:53",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Speak Now",
+        "duree": "4:00",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Dear John",
+        "duree": "6:43",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Mean",
+        "duree": "3:57",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "The Story of Us",
+        "duree": "4:25",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Never Grow Up",
+        "duree": "4:50",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Enchanted",
+        "duree": "5:52",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Better Than Revenge",
+        "duree": "3:37",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Innocent",
+        "duree": "5:02",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Last Kiss",
+        "duree": "6:07",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "Long Live",
+        "duree": "5:17",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Speak Now"
+    },
+    {
+        "titre": "State of Grace",
+        "duree": "4:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Red",
+        "duree": "3:43",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Treacherous",
+        "duree": "4:02",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "I Knew You Were Trouble",
+        "duree": "3:39",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "All Too Well",
+        "duree": "5:29",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "22",
+        "duree": "3:52",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "I Almost Do",
+        "duree": "4:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "We Are Never Ever Getting Back Together",
+        "duree": "3:13",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Stay Stay Stay",
+        "duree": "3:25",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "The Last Time",
+        "duree": "4:59",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Holy Ground",
+        "duree": "3:22",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Sad Beautiful Tragic",
+        "duree": "4:44",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "The Lucky One",
+        "duree": "4:00",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Everything Has Changed",
+        "duree": "4:05",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Starlight",
+        "duree": "3:40",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Begin Again",
+        "duree": "3:57",
+        "artiste": "Taylor Swift",
+        "genres": ["Country", "Pop"],
+        "album": "Red"
+    },
+    {
+        "titre": "Welcome to New York",
+        "duree": "3:32",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Blank Space",
+        "duree": "3:51",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Style",
+        "duree": "3:51",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Out of the Woods",
+        "duree": "3:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "All You Had to Do Was Stay",
+        "duree": "3:13",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Shake It Off",
+        "duree": "3:39",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "I Wish You Would",
+        "duree": "3:27",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Bad Blood",
+        "duree": "3:31",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Wildest Dreams",
+        "duree": "3:40",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "How You Get the Girl",
+        "duree": "4:07",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "This Love",
+        "duree": "4:10",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "I Know Places",
+        "duree": "3:15",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Clean",
+        "duree": "4:31",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "1989"
+    },
+    {
+        "titre": "Look What You Made Me Do",
+        "duree": "3:31",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "End Game",
+        "duree": "4:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "I Did Something Bad",
+        "duree": "3:58",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "Delicate",
+        "duree": "3:52",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "King of My Heart",
+        "duree": "3:34",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "Dancing with Our Hands Tied",
+        "duree": "3:31",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "Gorgeous",
+        "duree": "3:29",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "Getaway Car",
+        "duree": "3:53",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "Call It What You Want",
+        "duree": "3:23",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "New Year's Day",
+        "duree": "3:55",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Reputation"
+    },
+    {
+        "titre": "I Forgot That You Existed",
+        "duree": "2:50",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "Cruel Summer",
+        "duree": "2:58",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "Lover",
+        "duree": "3:41",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "The Man",
+        "duree": "3:10",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "False God",
+        "duree": "3:20",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "Miss Americana & the Heartbreak Prince",
+        "duree": "3:54",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "You Need to Calm Down",
+        "duree": "2:51",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "ME!",
+        "duree": "3:13",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "Afterglow",
+        "duree": "3:43",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "Daylight",
+        "duree": "4:53",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Lover"
+    },
+    {
+        "titre": "cardigan",
+        "duree": "3:59",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "the 1",
+        "duree": "3:30",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "exile",
+        "duree": "4:45",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "my tears ricochet",
+        "duree": "4:15",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "mirrorball",
+        "duree": "3:29",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "seven",
+        "duree": "3:28",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "august",
+        "duree": "4:21",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "this is me trying",
+        "duree": "3:15",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "illicit affairs",
+        "duree": "3:11",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "invisible string",
+        "duree": "4:12",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "mad woman",
+        "duree": "3:57",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "epiphany",
+        "duree": "4:49",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "betty",
+        "duree": "4:54",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "hoax",
+        "duree": "3:40",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "folklore"
+    },
+    {
+        "titre": "willow",
+        "duree": "3:34",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "champagne problems",
+        "duree": "4:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "gold rush",
+        "duree": "3:05",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "'tis the damn season",
+        "duree": "3:49",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "tolerate it",
+        "duree": "4:05",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "no body, no crime",
+        "duree": "3:35",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "dorothea",
+        "duree": "3:45",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "coney island",
+        "duree": "4:35",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "ivy",
+        "duree": "4:20",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "cowboy like me",
+        "duree": "4:35",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "long story short",
+        "duree": "3:35",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "evermore",
+        "duree": "5:04",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "evermore"
+    },
+    {
+        "titre": "Lavender Haze",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Maroon",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Anti-Hero",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Snow on the Beach",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "You're On Your Own, Kid",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Midnight Rain",
+        "duree": "3:42",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Question...?",
+        "duree": "3:31",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Vigilante Shit",
+        "duree": "2:45",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Bejeweled",
+        "duree": "",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Labyrinth",
+        "duree": "3:15",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Karma",
+        "duree": "3:32",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop", "Rock"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Sweet Nothing",
+        "duree": "3:54",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop", "Electronic"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "Mastermind",
+        "duree": "3:23",
+        "artiste": "Taylor Swift",
+        "genres": ["Pop", "Dance"],
+        "album": "Midnights"
+    },
+    {
+        "titre": "On verra",
+        "duree": "3:22",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "Égalité",
+        "duree": "3:20",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "On s'en fout",
+        "duree": "3:18",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "Même pas peur",
+        "duree": "3:16",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "Ma dope",
+        "duree": "3:14",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "On est bien",
+        "duree": "3:12",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "La vie de rêve",
+        "duree": "3:10",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "On s'en sort",
+        "duree": "3:08",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "Feu",
+        "duree": "3:06",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },  
+    {   
+        "titre": "Le monde est cruel",
+        "duree": "3:04",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Feu"
+    },
+    {
+        "titre": "Humanoïde",
+        "duree": "3:12",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Mauvaise graine",
+        "duree": "4:00",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Squa",
+        "duree": "4:02",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Réalité augmentée",
+        "duree": "3:24",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Avant tu riais",
+        "duree": "5:06",
+        "artistes": ["Nekfeu", "Clara Luciani"],
+        "genres": ["Rap", "Pop"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Esquimaux",
+        "duree": "3:24",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "O.D",
+        "duree": "3:27",
+        "artistes": ["Nekfeu", "Murkage Dave"],
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },  
+    {   
+        "titre": "Vinyle",
+        "duree": "3:11",
+        "artistes": ["Nekfeu", "Alpha Wann"],
+        "genres": ["Rap"],
+        "album": "Cyborg"
+    },
+    {
+        "titre": "Les étoiles vagabondes",
+        "duree": "3:53",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Alunissons",
+        "duree": "4:37",
+        "artistes": ["Selman", "Loubensky", "Diabi"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Cheum",
+        "duree": "3:15",
+        "artiste": "Hugz Hefner",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Takotsubo",
+        "duree": "4:44",
+        "artiste": "Selman",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Menteur menteur",
+        "duree": "3:44",
+        "artiste": "Diabi",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Ciel noir",
+        "duree": "4:12",
+        "artistes": ["Trombone Shorty", "Diabi", "Selman", "Loubensky"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "De mon mieux",
+        "duree": "3:47",
+        "artiste": "Hologram Lo'",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Le bruit qui court",
+        "duree": "4:00",
+        "artiste": "Diabi",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Elle pleut",
+        "duree": "4:45",
+        "artistes": ["Nae", "Diabi"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Dans l'univers",
+        "duree": "4:03",
+        "artistes": ["Vanessa Paradis", "Hugz Hefner"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Premier pas",
+        "duree": "2:33",
+        "artistes": ["Hologram Lo'", "Diabi"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Tricheur",
+        "duree": "4:07",
+        "artistes": ["Damso", "Hugz Hefner"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Voyage léger",
+        "duree": "3:22",
+        "artiste": "Hugz Hefner",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Compte les hommes",
+        "duree": "4:10",
+        "artistes": ["Alpha Wann", "Diabi", "Loubensky"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Koala mouillé",
+        "duree": "3:00",
+        "artiste": "Diabi",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Ολά Καλά",
+        "duree": "5:02",
+        "artistes": ["Nekfeu", "Selman", "Diabi"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Pixels",
+        "duree": "3:52",
+        "artistes": ["Crystal Kay", "Loubensky", "Hologram Lo'", "Selman", "Diabi"],
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "1er rôle",
+        "duree": "3:53",
+        "artiste": "Nekfeu",
+        "genres": ["Rap"],
+        "album": "Les étoiles vagabondes"
+    },
+    {
+        "titre": "Isometric",
+        "duree": "1:20",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "You're On",
+        "duree": "3:12",
+        "artistes": ["Madeon", "Kyan"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "OK",
+        "duree": "3:01",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "La Lune",
+        "duree": "3:39",
+        "artistes": ["Madeon", "Dan Smith"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Pay No Mind",
+        "duree": "4:09",
+        "artistes": ["Madeon", "Passion Pit"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Beings",
+        "duree": "3:35",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Imperium",
+        "duree": "3:18",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Zephyr",
+        "duree": "3:40",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Nonsense",
+        "duree": "3:45",
+        "artistes": ["Madeon", "Mark Foster"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Innocence",
+        "duree": "3:44",
+        "artistes": ["Madeon", "Aquilo"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Pixel Empire",
+        "duree": "4:04",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Home",
+        "duree": "3:45",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Icarus",
+        "duree": "3:34",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Finale",
+        "duree": "3:24",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "The City",
+        "duree": "3:54",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Cut the Kid",
+        "duree": "3:17",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Technicolor",
+        "duree": "6:25",
+        "artiste": "Madeon",
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Only Way Out",
+        "duree": "3:46",
+        "artistes": ["Madeon", "Vancouver Sleep Clinic"],
+        "genres": ["Electronic"],
+        "album": "Adventure"
+    },
+    {
+        "titre": "Do It, Try It",
+        "duree": "3:37",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Go!",
+        "duree": "3:55",
+        "artistes": ["M83", "Mai Lan"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Walkway Blues",
+        "duree": "4:49",
+        "artistes": ["M83", "Jordan Lawlor"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Bibi the Dog",
+        "duree": "3:54",
+        "artistes": ["M83", "Mai Lan"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Moon Crystal",
+        "duree": "2:26",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "For the Kids",
+        "duree": "4:41",
+        "artistes": ["M83", "Susanne Sundfør", "Zelly Meldal-Johnsen"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Solitude",
+        "duree": "6:03",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "The Wizard",
+        "duree": "2:25",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Laser Gun",
+        "duree": "4:16",
+        "artistes": ["M83", "Mai Lan"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Road Blaster",
+        "duree": "4:21",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Tension",
+        "duree": "2:05",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Atlantique Sud",
+        "duree": "3:24",
+        "artistes": ["M83", "Mai Lan"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Time Wind",
+        "duree": "4:09",
+        "artistes": ["M83", "Beck"],
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Ludivine",
+        "duree": "1:35",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Sunday Night 1987",
+        "duree": "4:00",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Junk"
+    },
+    {
+        "titre": "Intro",
+        "duree": "5:22",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Midnight City",
+        "duree": "4:03",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Reunion",
+        "duree": "3:55",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Where the Boats Go",
+        "duree": "1:46",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Wait",
+        "duree": "5:43",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Raconte-moi une histoire",
+        "duree": "4:04",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Train to Pluton",
+        "duree": "1:15",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Claudia Lewis",
+        "duree": "4:31",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "This Bright Flash",
+        "duree": "2:23",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "When Will You Come Home?",
+        "duree": "1:23",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "Soon, My Friend",
+        "duree": "3:09",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "My Tears Are Becoming a Sea",
+        "duree": "2:31",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "New Map",
+        "duree": "4:22",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "OK Pal",
+        "duree": "3:58",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "Another Wave from You",
+        "duree": "1:53",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "Splendor",
+        "duree": "5:06",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "Year One, One UFO",
+        "duree": "3:17",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {
+        "titre": "Fountains",
+        "duree": "1:21",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Steve McQueen",
+        "duree": "3:48",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },
+    {
+        "titre": "Echoes of Mine",
+        "duree": "3:39",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {   
+        "titre": "Klaus I Love You",
+        "duree": "1:44",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    },  
+    {
+        "titre": "Outro",
+        "duree": "4:07",
+        "artiste": "M83",
+        "genres": ["Electronic"],
+        "album": "Hurry Up, We're Dreaming"
+    }
+]

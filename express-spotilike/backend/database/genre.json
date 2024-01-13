@@ -1,0 +1,70 @@
+[
+    {
+        "titre": "Rap",
+        "description": "Le rap est un mouvement culturel et musical (musique populaire) qui tire ses origines du hip-hop. Apparu au début des années 1970 dans les ghettos américains, le rap se caractérise par une diction très rythmée et l’usage de la rime1. C'est à la base un moyen d'expression pour revendiquer une certaine manière de vivre à cette époque, le rap prenant un caractère social important quand il souligne les injustices de la société ou un caractère plus égotrip souvent aussi. À partir des années 1980, le rap commence à s'exporter à l'étranger, en France, Allemagne, Royaume-Uni, Japon, Corée, Sénégal, Afrique du Sud, URSS (puis Russie) et même en Chine2. Le rap se répand dans le monde entier et se propage, devenant l'un des premiers courants artistiques avec des représentants sur chaque continent."
+    },
+    {
+        "titre": "Rock",
+        "description": "Le rock est un genre musical apparu dans les années 1950 aux États-Unis et qui s'est développé en différents sous-genres à partir des années 1960, notamment aux États-Unis et au Royaume-Uni1. Il prend ses racines dans le rock 'n' roll des années 1940 et 1950, lui-même grandement influencé par le rhythm and blues et la country. Le rock a également incorporé des éléments provenant d'autres genres dont la folk, le blues, le jazz et la musique classique. Le terme « rock » est aujourd'hui parfois utilisé comme un terme générique incluant des formes artistiques comme la pop music, la musique soul2. Son influence culturelle est désormais prééminente dans l'industrie musicale, et se diffuse également dans d'autres arts (cinéma, bande dessinée, mode vestimentaire)."
+    },
+    {
+        "titre": "Pop",
+        "description": "La pop est un genre musical apparu dans les années 1960 au Royaume-Uni et aux États-Unis. Le terme « pop » est l'abréviation de l'anglais « popular music » qui signifie « musique populaire ». La pop est moins influencée par le jazz et le blues que la rock music, et utilise souvent des chansons courtes, des rythmes dansants et des paroles simples. Les chansons pop sont généralement écrites par des auteurs-compositeurs professionnels, et non par les interprètes eux-mêmes. La pop est un genre musical très vaste, et il est parfois difficile de la définir précisément. Elle est souvent confondue avec la musique populaire, qui est un terme plus général qui inclut tous les genres musicaux qui ont du succès."
+    },
+    {
+        "titre": "Classique",
+        "description": "La musique classique est un genre musical occidental qui s'est développé au cours des siècles, principalement depuis le Moyen Âge. Elle a bénéficié de l'apport de nombreux compositeurs, et se caractérise donc par une très grande diversité de styles. Elle est généralement considérée comme opposée à la musique populaire, qui est créée par le peuple et pour le peuple, alors que la musique classique est créée par des compositeurs et interprétée par des musiciens professionnels. La musique classique est souvent considérée comme un genre musical élitiste, car elle est souvent associée à la culture des élites."
+    },
+    {
+        "titre": "Jazz",
+        "description": "Le jazz est un genre musical originaire du Sud des États-Unis, créé à la fin du XIXe siècle et au début du XXe siècle au sein des communautés afro-américaines. Avec plus d'un siècle d'existence, du ragtime au jazz actuel, il recouvre de nombreux sous-genres marqués par un héritage de la musique euro-américaine et afro-américaine, et conçus pour être joués en public2. Le jazz est considéré comme la première forme musicale spécifiquement américaine3. Il s'est répandu à travers le monde et a été reconnu pour son influence sur d'autres genres musicaux populaires."
+    },
+    {
+        "titre": "Electronic",
+        "description": "La musique électronique est une forme de musique utilisant des instruments de musique électroniques ou des technologies de production sonore électroniques. Elle est généralement produite en utilisant des équipements électroniques, des instruments de musique numériques ou des technologies de production sonore numériques. La musique électronique comprend de nombreuses variantes et sous-genres, dont la musique électronique ambiante, la musique acousmatique, la musique concrète, la musique électronique expérimentale, la musique électronique industrielle, la musique électronique synthpop, la musique électronique dance, la musique électronique trance, la musique électronique house, la musique électronique techno, la musique électronique électro, la musique électronique dubstep, la musique électronique drum and bass, la musique électronique trap, la musique électronique hardstyle et la musique électronique de danse."
+    },
+    {
+        "titre": "Reggae",
+        "description": "Le reggae est un genre musical issu du ska et du rocksteady, la musique jamaïcaine populaire à partir de la fin des années 1960. Le terme reggae désigne à la fois un genre musical et la culture populaire jamaïcaine ayant émergé à la fin des années 1960 et au début des années 1970. Le reggae est fortement influencé par le ska, le rocksteady et le mento, mais aussi par le rhythm and blues et le jazz. Il se caractérise par un tempo à la noire, une accentuation des temps 2 et 4, et une ligne de basse marchant sur le temps. Le reggae se distingue également par son rythme syncopé et par l'utilisation de la guitare électrique. Le reggae est souvent associé à la consommation de cannabis, et est souvent considéré comme un genre musical engagé."
+    },
+    {
+        "titre": "RnB",
+        "description": "Le rhythm and blues, plus connu sous l'abréviation RnB, est un genre musical populaire afro-américain qui a émergé aux États-Unis à la fin des années 1940 et au début des années 1950. Le terme « rhythm and blues » a été utilisé pour la première fois par Jerry Wexler en 1947, lorsque celui-ci était rédacteur en chef de la revue Billboard. Le terme est utilisé pour décrire un genre musical qui combine le jazz, le blues et le gospel. Le rhythm and blues a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Soul",
+        "description": "La soul est un genre musical populaire afro-américain qui a émergé aux États-Unis à la fin des années 1950 et au début des années 1960. La soul est une forme de musique rhythm and blues influencée par le gospel, et qui utilise des chants et des harmonies vocales. La soul est souvent associée à la musique afro-américaine, et est souvent considérée comme un genre musical engagé. La soul a influencé de nombreux autres genres musicaux, notamment le funk, le disco, le hip-hop, le rap, le jazz et la musique pop."
+    },
+    {
+        "titre": "Country",
+        "description": "La musique country est un genre musical populaire américain qui a émergé aux États-Unis dans les années 1920. La musique country est souvent associée à la musique folk, et est souvent considérée comme un genre musical engagé. La musique country a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Metal",
+        "description": "Le heavy metal est un genre musical dérivé du rock, apparu au Royaume-Uni et aux États-Unis à la fin des années 1960. C'est un genre musical très diversifié, caractérisé par une grande variété de rythmes, de mélodies et d'instruments. Le heavy metal est souvent associé à la musique rock, et est souvent considéré comme un genre musical engagé. Le heavy metal a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Danse",
+        "description": "La musique de danse est un genre musical populaire qui a émergé aux États-Unis dans les années 1970. La musique de danse est souvent associée à la musique pop, et est souvent considérée comme un genre musical engagé. La musique de danse a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Blues",
+        "description": "Le blues est un genre musical populaire afro-américain qui a émergé aux États-Unis à la fin des années 1800 et au début des années 1900. Le blues est souvent associé à la musique folk, et est souvent considéré comme un genre musical engagé. Le blues a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Folk",
+        "description": "La musique folk est un genre musical populaire qui a émergé aux États-Unis dans les années 1920. La musique folk est souvent associée à la musique pop, et est souvent considérée comme un genre musical engagé. La musique folk a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Punk",
+        "description": "Le punk est un genre musical populaire qui a émergé aux États-Unis dans les années 1970. Le punk est souvent associé à la musique rock, et est souvent considéré comme un genre musical engagé. Le punk a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Funk",
+        "description": "Le funk est un genre musical populaire qui a émergé aux États-Unis dans les années 1960. Le funk est souvent associé à la musique rock, et est souvent considéré comme un genre musical engagé. Le funk a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    },
+    {
+        "titre": "Disco",
+        "description": "Le disco est un genre musical populaire qui a émergé aux États-Unis dans les années 1970. Le disco est souvent associé à la musique pop, et est souvent considéré comme un genre musical engagé. Le disco a influencé de nombreux autres genres musicaux, notamment le rock 'n' roll, le rockabilly, le doo-wop, le funk, le disco, le hip-hop, le soul et la musique pop."
+    }
+]
