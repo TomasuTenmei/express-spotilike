@@ -27,7 +27,7 @@ app.listen(PORT, () => {
   console.log(`Serveur en écoute sur le port ${PORT}`);
 });
 
-// Routes pour manipuler les données
+// EXEMPLE de routes pour manipuler les données
 
 const Article = require(".backend/app/js/models/article");
 
