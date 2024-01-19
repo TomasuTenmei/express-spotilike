@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Connexion à MongoDB
 mongoose.connect("mongodb://localhost:27017/Spotilike", {
@@ -29,7 +29,7 @@ app.listen(PORT, () => {
 
 // EXEMPLE de routes pour manipuler les données
 
-const Article = require(".backend/app/js/models/article");
+const Article = require("./models/article");
 
 // Créer un article
 app.post("/articles", async (req, res) => {
