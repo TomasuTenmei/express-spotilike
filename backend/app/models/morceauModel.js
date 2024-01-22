@@ -6,6 +6,8 @@ const morceauSchema = new mongoose.Schema({
     artiste: { type: String, required: true },
     genre: { type: String, required: true },
     album: { type: String, required: true }
-});
+    },
+    {timestamps: true}
+);
 
 module.exports = mongoose.model("Morceau", morceauSchema);
