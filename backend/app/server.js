@@ -1,5 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
+const asyncHandler = require('express-async-handler')
+const UserModel = require('../models/userModel')
 
 const app = express();
 const PORT = process.env.PORT || 8000;
