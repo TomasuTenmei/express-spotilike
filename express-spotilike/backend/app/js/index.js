@@ -31,62 +31,18 @@ app.listen(PORT, () => {
 
 const Article = require("./models/article");
 
-// Créer un article
-app.post("/articles", async (req, res) => {
-  try {
-    const article = new Article(req.body);
-    await article.save();
-    res.status(201).json(article);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-  }
-});
-
-// Obtenir tous les articles
-app.get("/articles", async (req, res) => {
-  try {
-    const articles = await Article.find();
-    res.json(articles);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-});
-
-// Obtenir un article spécifique
-app.get("/articles/:id", async (req, res) => {
-  try {
-    const article = await Article.findById(req.params.id);
-    if (!article) {
-      return res.status(404).json({ message: "Article introuvable" });
-    }
-    res.json(article);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-});
-
-// Mettre à jour un article
-app.patch("/articles/:id", async (req, res) => {
-  try {
-    const article = await Article.findByIdAndUpdate(req.params.id, req.body, { new: true });
-    if (!article) {
-      return res.status(404).json({ message: "Article introuvable" });
-    }
-    res.json(article);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-});
-
-// Supprimer un article
-app.delete("/articles/:id", async (req, res) => {
-  try {
-    const article = await Article.findByIdAndDelete(req.params.id);
-    if (!article) {
-      return res.status(404).json({ message: "Article introuvable" });
-    }
-    res.json({ message: "Article supprimé avec succès" });
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-});
+//1. GET - /api/albums : Récupère la liste de tous les albums
+//2. GET - /api/albums/:id : Récupère les détails de l’album précisé par :id
+//3. GET - /api/albums/:id/songs : Récupère les morceaux de l’album précisé par :id
+//4. GET - /api/genres : Récupère la liste de tous les genres
+//5. GET - /api/artists/:id/songs : Récupère la liste de tous les morceaux de l’artiste précisé par :id
+//6. POST - /api/users/signin : Ajout d’un utilisateur
+//7. POST - /api/users/login : Connexion d’un utilisateur (JWT)
+//8. POST - /api/albums : Ajout d’un album
+//9. POST - /api/albums/:id/songs : Ajout d’un morceau dans l’album précisé par :id
+//10. PUT - /api/artists/:id : Modification de l’artiste précisé par :id
+//11. PUT - /api/albums/:id : Modification de l’album précisé par :id
+//12. PUT - /api/genres/:id : Modification du genre précisé par :id
+//13. DELETE - /api/users/:id : Suppression de utilisateur précisé par :id
+//14. DELETE - /api/albums/:id : Suppression de l’album précisé par :id
+//15. DELETE - /api/artists/:id : Supression de l’artiste précisé par :id
