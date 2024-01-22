@@ -4,7 +4,8 @@
   "description": "Projet IPI pour le cours de NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./backend/app/server.js",
+    "server": "node --inspect ./backend/app/server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,6 @@
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.4"
+    "mongoose": "^8.1.0"
   }
 }
