@@ -9,6 +9,8 @@ const {
 
 const { protect } = require('../middlewares/authMiddleware')
 
+// DELETE - /api/users/:id : Suppression de utilisateur précisé par :id
+
 router.post('/register', registerUser)
 router.post('/login', loginUser)
 router.get('/me', protect, getMe)

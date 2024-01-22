@@ -9,6 +9,9 @@ const {
     deleteAlbum
 } = require('../controllers/albumController')
 
+// GET - /api/albums/:id/songs : Récupère les morceaux de l’album précisé par :id
+// POST - /api/albums/:id/songs : Ajout d’un morceau dans l’album précisé par :id
+
 router.get('/', getAlbums)
 router.get('/:id', getAlbum)
 router.post('/', addAlbum)
