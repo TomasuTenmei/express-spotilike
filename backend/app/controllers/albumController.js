@@ -18,14 +18,29 @@ const getAlbum = asyncHandler(async (req, res) => {
 })
 
 const addAlbum = asyncHandler(async (req, res) => {
-    if (! req.body.titre) {
-        res.status(400)
-        throw new Error('Please write a album')
+    const { title, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
+
+    // Check if required fields are present
+    if (!title || !pochette || !date_de_sortie || !liste_des_morceaux || !artiste) {
+        res.status(400);
+        throw new Error('Please provide all required fields for the album');
     }
 
-    const album = await AlbumModel.create({ titre: req.body.titre })
-    res.json({ message: `Album: ${req.body.titre} added` })
-})
+    try {
+        const album = await AlbumModel.create({
+            title,
+            pochette,
+            date_de_sortie,
+            liste_des_morceaux,
+            artiste,
+        });
+
+        res.status(201).json({ message: `Album '${title}' added`, data: album });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
 
 const updateAlbum = asyncHandler(async (req, res) => {
     const album = await AlbumModel.findById(req.params.id)
