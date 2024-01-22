@@ -7,7 +7,8 @@ const morceauSchema = new mongoose.Schema({
     genre: { type: String, required: true },
     album: { type: String, required: true }
     },
+    {collection: "morceaux"},
     {timestamps: true}
 );
 
-module.exports = mongoose.model("Morceau", morceauSchema);
+module.exports = mongoose.model("morceaux", morceauSchema);
