@@ -22,21 +22,27 @@ app.get('/', (req, res) => {
   res.send("Bienvenue sur l'API Spotilike");
 });
 
+app.use('/api/goals', require('./routes/goalRoutes'))
+app.use('/api/users', require('./routes/userRoutes'))
+
 // Lancer le serveur
 app.listen(PORT, () => {
   console.log(`Serveur en écoute sur le port ${PORT}`);
 });
 
-// EXEMPLE de routes pour manipuler les données
-
-const Article = require("./models/article");
+// Routes pour manipuler les données
+const Album = require("./models/albumModel");
+const Artiste = require("./models/artisteModel");
+const Genre = require("./models/genreModel");
+const Morceau = require("./models/morceauModel");
+const User = require("./models/userModel");
 
 //1. GET - /api/albums : Récupère la liste de tous les albums
 //2. GET - /api/albums/:id : Récupère les détails de l’album précisé par :id
 //3. GET - /api/albums/:id/songs : Récupère les morceaux de l’album précisé par :id
 //4. GET - /api/genres : Récupère la liste de tous les genres
 //5. GET - /api/artists/:id/songs : Récupère la liste de tous les morceaux de l’artiste précisé par :id
-//6. POST - /api/users/signin : Ajout d’un utilisateur
+//6. POST - /api/users/signup : Ajout d’un utilisateur
 //7. POST - /api/users/login : Connexion d’un utilisateur (JWT)
 //8. POST - /api/albums : Ajout d’un album
 //9. POST - /api/albums/:id/songs : Ajout d’un morceau dans l’album précisé par :id
