@@ -1,5 +1,6 @@
 const express = require('express')
 const dotenv = require('dotenv').config()
+const colors = require('colors')
 const port = process.env.PORT || 8000
 
 // Connexion à MongoDB
@@ -26,9 +27,6 @@ app.listen(port, () => {
     console.log(`Server started on ${port}`)
 })
 
-//const app = express();
-//const PORT = process.env.PORT || 8000;
-//
 //// Connexion à MongoDB
 //mongoose.connect("mongodb://localhost:27017/Spotilike", {
 //  useNewUrlParser: true,
