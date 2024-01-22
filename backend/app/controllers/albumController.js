@@ -17,6 +17,17 @@ const getAlbum = asyncHandler(async (req, res) => {
     res.status(200).json(album)
 })
 
+const getAlbumSongs = asyncHandler(async (req, res) => {
+    const album = await AlbumModel.findById(req.params.id)
+
+    if (!album) {
+        res.status(400)
+        throw new Error('Album not found')
+    }
+
+    res.status(200).json(album.liste_des_morceaux)
+})
+
 const addAlbum = asyncHandler(async (req, res) => {
     const { title, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
 
@@ -67,6 +78,7 @@ const deleteAlbum = asyncHandler(async (req, res) => {
 module.exports = {
     getAlbums,
     getAlbum,
+    getAlbumSongs,
     addAlbum,
     updateAlbum,
     deleteAlbum
