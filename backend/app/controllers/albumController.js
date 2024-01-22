@@ -52,18 +52,42 @@ const addAlbum = asyncHandler(async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
 const updateAlbum = asyncHandler(async (req, res) => {
-    const album = await AlbumModel.findById(req.params.id)
-    if (!album) {
-        res.status(400)
-        throw new Error('Album not found')
+    const { title, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
+
+    // Check if at least one field is provided for the update
+    if (!title && !pochette && !date_de_sortie && !liste_des_morceaux && !artiste) {
+        res.status(400);
+        throw new Error('Please provide at least one field to update for the album');
     }
 
-    const updatedAlbum = await AlbumModel.findByIdAndUpdate(album, req.body)
-    res.json({ album: `${req.body.titre} updated` })
-})
+    const album = await AlbumModel.findById(req.params.id);
 
+    if (!album) {
+        res.status(400);
+        throw new Error('Album not found');
+    }
+
+    try {
+        // Update only the fields that are provided in the request body
+        const updatedAlbum = await AlbumModel.findByIdAndUpdate(
+            req.params.id,
+            {
+                ...(title && { title }),
+                ...(pochette && { pochette }),
+                ...(date_de_sortie && { date_de_sortie }),
+                ...(liste_des_morceaux && { liste_des_morceaux }),
+                ...(artiste && { artiste }),
+            },
+            { new: true }
+        );
+
+        res.json({ message: `Album '${updatedAlbum.title}' updated`, data: updatedAlbum });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
 const deleteAlbum = asyncHandler(async (req, res) => {
     const album = await AlbumModel.findById(req.params.id)
     if (!album) {
