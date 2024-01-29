@@ -1,14 +1,13 @@
 // router/index.js
-import Vue from 'vue';
-import Router from 'vue-router';
 import AlbumList from '../components/AlbumList.vue';
+import AlbumDetails from '../components/AlbumDetails.vue';
 
 
-Vue.use(Router);
-
-export default new Router({
-  routes: [
+const routes = [
+    { path: '/', component: AlbumList },
     { path: '/albums', component: AlbumList },
-    // other routes...
-  ],
-});
+    { path: '/albums/:id', name: "albumDetails", component: AlbumDetails }
+
+];
+
+export default routes;

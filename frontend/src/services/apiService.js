@@ -1,8 +1,7 @@
 // services/apiService.js
 import axios from 'axios';
-
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8000/api/', // Your backend server URL
+  baseURL: 'http://localhost:8000/api/',
   withCredentials: false,
   headers: {
     'Accept': 'application/json',
@@ -13,5 +12,8 @@ const apiClient = axios.create({
 export default {
   getAlbums() {
     return apiClient.get('/albums');
+  },
+  getAlbumById(id) {
+    return apiClient.get(`/albums/${id}`);
   }
 };

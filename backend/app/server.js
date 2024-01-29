@@ -1,6 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv').config()
 const colors = require('colors')
+const cors = require('cors');
 const port = process.env.PORT || 8000
 
 // Connexion à MongoDB
@@ -13,6 +14,8 @@ const app = express()
 // Accepter les données envoyées par formulaire
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
+app.use(cors());
+
 
 // Routes
 app.use('/api/albums', require('./routes/albumRoutes'))

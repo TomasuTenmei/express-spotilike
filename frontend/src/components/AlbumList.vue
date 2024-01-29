@@ -2,8 +2,9 @@
   <div class="album-list">
     <h1>Albums</h1>
     <ul>
-      <li v-for="album in albums" :key="album.id">
+      <li v-for="album in albums" :key="album._id">
         {{ album.titre }} - {{ album.artiste }}
+        <router-link :to="{name: 'albumDetails', params: {id: album._id}}">View Details</router-link>
       </li>
     </ul>
   </div>
@@ -11,21 +12,24 @@
 
 <script>
 import apiService from '@/services/apiService';
+import { defineComponent } from 'vue';
 
-export default {
+export default  defineComponent({
   data() {
     return {
       albums: []
     };
   },
-  created() {
+  
+  mounted() {
     apiService.getAlbums()
       .then(response => {
-        this.albums = response.data; // Assuming the response contains the albums data
+        this.albums = response.data; 
+        console.log(this.albums)
       })
       .catch(error => console.error('Error:', error));
   }
-};
+});
 </script>
 
 

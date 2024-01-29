@@ -1,16 +1,8 @@
 <template>
-  <AlbumList/>
+  <router-view></router-view>
 </template>
 
-<script>
-import AlbumList from './components/AlbumList.vue'
-
-export default {
-  name: 'App',
-  components: {
-    AlbumList
-  }
-}
+<script setup>
 </script>
 
 <style>
