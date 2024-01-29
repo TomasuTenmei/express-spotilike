@@ -15,5 +15,11 @@ export default {
   },
   getAlbumById(id) {
     return apiClient.get(`/albums/${id}`);
-  }
+  },
+  getArtists(){
+    return apiClient.get('/artistes');
+  },
+  getArtistById(id) {
+    return apiClient.get(`/artistes/${id}`);
+  },
 };
