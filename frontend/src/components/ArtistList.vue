@@ -2,9 +2,12 @@
   <div class="artist-list">
     <h1>Artists</h1>
     <ul>
-      <li v-for="artist in artists" :key="artist._id" >
-        {{ artist.nom_artiste }}
-        <router-link :to="{name: 'artistDetails', params: {id: artist._id}}">View Details</router-link>
+      <li v-for="artist in artists" :key="artist._id" class="artist-item" >
+        <img :src="artist.avatar" alt="Artist Avatar" class="avatar" />
+        <div class="artist-info">
+          <span class="artist-name">{{ artist.nom_artiste }}</span>
+          <router-link :to="{ name: 'artistDetails', params: { id: artist._id } }">View Details</router-link>
+        </div>
       </li>
     </ul>
   </div>
@@ -35,7 +38,7 @@ export default  defineComponent({
 
 
 <style scoped>
-.album-list {
+.artist-list {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -56,7 +59,9 @@ export default  defineComponent({
   padding: 0;
 }
 
-.artist-list li {
+.artist-item {
+  display: flex;
+  align-items: center;
   padding: 10px;
   border-bottom: 1px solid #ddd;
   color: #333;
@@ -64,7 +69,19 @@ export default  defineComponent({
   transition: background-color 0.3s;
 }
 
-.artist-list li:hover {
+.artist-item:hover {
   background-color: #e9e9e9;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
 }
 </style>
