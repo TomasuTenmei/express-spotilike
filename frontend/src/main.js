@@ -5,6 +5,8 @@ import routes from "@/router";
 
 
 
+
+
 const app = createApp(App);
-app.use(VueRouter.createRouter({history: VueRouter.createWebHistory(), routes}))
+app.use(VueRouter.createRouter({history: VueRouter.createWebHistory(), routes}));
 app.mount('#app');

@@ -4,7 +4,7 @@ const asyncHandler = require('express-async-handler')
 const UserModel = require('../models/userModel')
 
 const registerUser = asyncHandler(async (req, res) => {
-
+    console.log(req.body)
     // Retrieving body infos.
     const { username, email, password } = req.body
 
