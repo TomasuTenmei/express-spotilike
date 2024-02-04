@@ -4,7 +4,8 @@ const router = express.Router()
 const {
     registerUser,
     loginUser,
-    getMe
+    getMe,
+    deleteUser
 } = require('../controllers/userController')
 
 const { protect } = require('../middlewares/authMiddleware')
@@ -14,5 +15,6 @@ const { protect } = require('../middlewares/authMiddleware')
 router.post('/register', registerUser)
 router.post('/login', loginUser)
 router.get('/me', protect, getMe)
+router.delete('/:id', deleteUser)
 
 module.exports = router

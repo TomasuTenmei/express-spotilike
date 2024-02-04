@@ -77,6 +77,17 @@ const getMe = asyncHandler(async (req, res) => {
     })
 })
 
+const deleteUser = asyncHandler(async (req, res) => {
+    const user = await UserModel.findById(req.params.id)
+    if (!user) {
+        res.status(400)
+        throw new Error('User not found')
+    }
+
+    const deletedUser = await UserModel.findByIdAndDelete(req.params.id)
+    res.status(200).json(deletedUser)
+})
+
 // Generate JWT
 const generateToken = (id) => {
     return jwt.sign({ id }, process.env.JWT_SECRET, {
@@ -87,5 +98,6 @@ const generateToken = (id) => {
 module.exports = {
     registerUser,
     loginUser,
-    getMe
+    getMe,
+    deleteUser
 }

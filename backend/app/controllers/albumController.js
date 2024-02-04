@@ -29,29 +29,67 @@ const getAlbumSongs = asyncHandler(async (req, res) => {
 })
 
 const addAlbum = asyncHandler(async (req, res) => {
-    const { title, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
+    const { titre, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
 
-    // Check if required fields are present
-    if (!title || !pochette || !date_de_sortie || !liste_des_morceaux || !artiste) {
+    if (!titre || !pochette || !date_de_sortie || !liste_des_morceaux || !artiste) {
         res.status(400);
-        throw new Error('Please provide all required fields for the album');
+        throw new Error('Please provide all the required fields for the album');
+    }
+
+    const albumExists = await AlbumModel.findOne({ titre });
+    if (albumExists) {
+        res.status(400);
+        throw new Error('Album already exists');
     }
 
     try {
-        const album = await AlbumModel.create({
-            title,
+        const album = new AlbumModel({
+            titre,
             pochette,
             date_de_sortie,
             liste_des_morceaux,
-            artiste,
+            artiste
         });
 
-        res.status(201).json({ message: `Album '${title}' added`, data: album });
+        const createdAlbum = await album.save();
+        res.status(201).json(createdAlbum);
+        
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
-});
+})
+
+const addAlbumSong = asyncHandler(async (req, res) => {
+    const album = await AlbumModel.findById(req.params.id);
+
+    if (!album) {
+        res.status(400);
+        throw new Error('Album not found');
+    }
+
+    const { titre } = req.body;
+
+    if (!titre) {
+        res.status(400);
+        throw new Error('Please provide all the required fields for the song');
+    }
+
+    if (album.liste_des_morceaux.includes(titre)) {
+        res.status(400);
+        throw new Error('Song already exists in the album');
+    }
+
+    try {
+        album.liste_des_morceaux.push(titre);
+        const updatedAlbum = await album.save();
+        res.status(201).json(updatedAlbum);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+})
+
 const updateAlbum = asyncHandler(async (req, res) => {
     const { title, pochette, date_de_sortie, liste_des_morceaux, artiste } = req.body;
 
@@ -87,7 +125,8 @@ const updateAlbum = asyncHandler(async (req, res) => {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
-});
+})
+
 const deleteAlbum = asyncHandler(async (req, res) => {
     const album = await AlbumModel.findById(req.params.id)
     if (!album) {
@@ -104,6 +143,7 @@ module.exports = {
     getAlbum,
     getAlbumSongs,
     addAlbum,
+    addAlbumSong,
     updateAlbum,
     deleteAlbum
 }

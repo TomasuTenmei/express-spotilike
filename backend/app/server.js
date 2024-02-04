@@ -16,7 +16,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors());
 
-
 // Routes
 app.use('/api/albums', require('./routes/albumRoutes'))
 app.use('/api/artistes', require('./routes/artisteRoutes'))

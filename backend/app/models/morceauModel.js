@@ -4,7 +4,7 @@ const morceauSchema = new mongoose.Schema({
     titre: { type: String, required: true },
     duree: { type: String, required: true },
     artiste: { type: String, required: true },
-    genre: { type: String, required: true },
+    genres: { type: Array, required: true },
     album: { type: String, required: true }
     },
     {collection: "morceaux"},
