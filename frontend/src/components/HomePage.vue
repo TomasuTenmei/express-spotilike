@@ -9,10 +9,17 @@ export default {
 </script>
 
 <template>
-  <div class="greeting-box">
-    <h2 v-if="user">Hello {{ user.username }},</h2>
-    <h2 v-if="!user">You are not logged in !</h2>
-    <h5>Welcome to Spotilike app !</h5>
+  <div  v-if="user" class="greeting-box">
+    <h2>Hello {{ user.username }},</h2>
+    <h4>Welcome to Spotilike !</h4>
+    <h6>Discover a universe of music at your fingertips.</h6>
+    <h6>Explore albums, artists, and exclusive content.</h6>
+  </div>
+  <div v-if="!user" class="greeting-box">
+    <h4>Welcome to Spotilike !</h4>
+    <h6>Discover a universe of music at your fingertips.</h6>
+    <h6><router-link to="/signup">Sign up now</router-link> to explore albums, artists, and exclusive content. </h6>
+    <h6>Already a member? <router-link to="/login">Log in</router-link> to continue your musical journey.</h6>
   </div>
 </template>
 

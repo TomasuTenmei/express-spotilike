@@ -2,8 +2,8 @@
   <nav class="navbar navbar-expand navbar-light " >
     <div class="container">
       <router-link class ="nav-link" to="/">Home</router-link>
-      <router-link class ="nav-link" to="/albums">Albums</router-link>
-      <router-link class ="nav-link" to="/artistes">Artists</router-link>
+      <router-link v-if="user" class ="nav-link" to="/albums">Albums</router-link>
+      <router-link v-if="user" class ="nav-link" to="/artistes">Artists</router-link>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto" v-if="!user">
           <li class="nav-item">
