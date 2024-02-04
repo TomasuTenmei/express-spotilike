@@ -1,30 +1,17 @@
 <script>
-import {fetchUserData} from "@/services/authService";
-
+import {mapGetters} from "vuex";
 export default {
-  data() {
-    return {
-      username: '',
-    };
+  name:'HomePage',
+  computed: {
+    ...mapGetters(['user'])
   },
-  async mounted() {
-    if (localStorage.getItem('token')) {
-      try {
-        const userData = await fetchUserData();
-        this.username = userData.username;
-      } catch (error) {
-        console.log("can't find the logged in user!")
-        console.error(error);
-      }
-    }
-  },
-};
+}
 </script>
 
 <template>
   <div class="greeting-box">
-    <h2 v-if="username">Hello {{ username }},</h2>
-    <h2 v-if="!username">You are not logged in !</h2>
+    <h2 v-if="user">Hello {{ user.username }},</h2>
+    <h2 v-if="!user">You are not logged in !</h2>
     <h5>Welcome to Spotilike app !</h5>
   </div>
 </template>

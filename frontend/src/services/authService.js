@@ -7,18 +7,13 @@ export async function login(email, password) {
             email,
             password,
         });
-        const { token, user } = response.data;
+        const token = response.data;
         localStorage.setItem('token', token);
-        return user;
+        return response.data;
 
 }
-
 export function logout() {
     localStorage.removeItem('token');
-}
-
-export function isAuthenticated() {
-    return localStorage.getItem('token') !== null;
 }
 
 export async function register(username, email, password) {
@@ -27,8 +22,7 @@ export async function register(username, email, password) {
         email,
         password,
     });
-    const {  user } = response.data;
-    return user;
+    return response.data;
 }
 
 export async function fetchUserData() {

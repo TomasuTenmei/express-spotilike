@@ -7,17 +7,15 @@ export default {
       email:'',
       password:'',
     }
-
   },
   methods : {
     async handleSubmit(){
       try {
-        const user = await login(this.email, this.password);
-        console.log(user)
+        const response = await login(this.email, this.password);
+        this.$store.dispatch('user',response);
         this.$router.push('/');
       } catch (error) {
-        console.log("couldn't complete login !")
-        console.error(error);
+        console.error("Couldn't complete login !",error);
       }
     }
   }

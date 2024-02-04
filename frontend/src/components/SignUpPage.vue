@@ -14,8 +14,8 @@ export default {
   methods:{
     async handleSubmit(){
       try {
-        const user = await register(this.username,this.email, this.password);
-        console.log(user)
+        const response = await register(this.username,this.email, this.password);
+        console.log(response)
         this.$router.push('/login');
       } catch (error) {
         console.log("couldn't complete registration !")

@@ -12,8 +12,29 @@
 
 </template>
 
-<script setup>
+<script >
 import NavBar from "@/components/NavBar.vue";
+import {fetchUserData} from "@/services/authService";
+export default {
+  name:'App',
+  components:{
+    NavBar,
+  },
+  async mounted() {
+      const token = localStorage.getItem('token');
+      if (token) {
+        try {
+          const response = await fetchUserData();
+          this.username = response.username;
+          this.$store.dispatch('user', response);
+        } catch (error) {
+          console.error('Failed to find out logged user', error);
+        }
+      } else {
+        console.log('No user is logged in.');
+      }
+    }
+}
 </script>
 
 <style>
