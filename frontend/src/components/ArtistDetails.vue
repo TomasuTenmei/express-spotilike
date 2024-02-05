@@ -4,7 +4,9 @@
       <img :src="artist.avatar" alt="Artist Avatar" class="avatar" />
       <div class="artist-info">
         <h1>{{ artist.nom_artiste }}</h1>
-        <p class="bio">{{ artist.biographie }}</p>
+        <div class="bio">
+          <p v-for="(paragraph, index) in artist.biographie" :key="index">{{ paragraph }}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -17,17 +19,21 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   data() {
     return {
-      artist: {}
+      artist: {
+        biographie: []
+      }
     };
   },
   mounted() {
     const artistId = this.$route.params.id;
-    console.log(artistId)
+    console.log(artistId);
     apiService.getArtistById(artistId)
         .then(response => {
           this.artist = response.data;
+          if (typeof this.artist.biographie === 'string') {
+            this.artist.biographie = this.artist.biographie.split(/\n\n|\r\n\r\n/);
+          }
           console.log(this.artist);
-
         })
         .catch(error => console.error('Error:', error));
   }
