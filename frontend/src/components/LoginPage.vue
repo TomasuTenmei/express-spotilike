@@ -6,6 +6,7 @@ export default {
     return{
       email:'',
       password:'',
+      error:''
     }
   },
   methods : {
@@ -15,7 +16,7 @@ export default {
         this.$store.dispatch('user',response);
         this.$router.push('/');
       } catch (error) {
-        console.error("Couldn't complete login !",error);
+        this.error="Invalid username/password"
       }
     }
   }
@@ -29,8 +30,10 @@ export default {
     </div>
   </div>
 <div>
-  <div> <h3>Login</h3>
-  <hr/></div>
+    <h3>Login</h3>
+    <hr/>
+  <div v-if="error" class="alert alert-danger" role="alert">
+    {{error}} </div>
   <form @submit.prevent="handleSubmit">
     <div class="form-group">
       <label>Email address</label>

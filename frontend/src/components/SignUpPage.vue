@@ -9,6 +9,7 @@ export default {
       username:'',
       email:'',
       password:'',
+      error:'',
     }
   },
   methods:{
@@ -18,8 +19,7 @@ export default {
         console.log(response)
         this.$router.push('/login');
       } catch (error) {
-        console.log("couldn't complete registration !")
-        console.error(error);
+        this.error =" Please fill up all fields !"
       }
     }
   }
@@ -35,6 +35,8 @@ export default {
   <div>
     <div> <h3>Sign up</h3>
       <hr/></div>
+    <div v-if="error" class="alert alert-danger" role="alert">
+      {{error}} </div>
     <form @submit.prevent="handleSubmit">
       <div class="form-group">
         <label>Username</label>
