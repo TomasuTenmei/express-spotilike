@@ -17,25 +17,33 @@
 ## Installation
 
 1. Téléchargez et installez NodeJs 18 depuis [nodejs.org](https://nodejs.org)
-2. Téléchargez et installez MongoDB depuis [www.mongodb.com](https://www.mongodb.com) et/ou MongoDB Compass depuis [www.mongodb.com/products/tools/compass](https://www.mongodb.com/products/tools/compass)
+
+2. Téléchargez et installez MongoDB depuis [mongodb](https://www.mongodb.com) et/ou MongoDB Compass depuis [www.mongodb.com/products/tools/compass](https://www.mongodb.com/products/tools/compass)
    - MongoDB est une plateforme de base de données NoSQL.
    - MongoDB Compass est une interface utilisateur graphique pour MongoDB.
-3. Installez les bibliothèques nécessaires :
+
+3. Téléchargez et installez Insomnia depuis [insomnia](https://insomnia.rest/)
+
+4. Installez les bibliothèques nécessaires :
 ```cmd
 npm install
 ```
-4. Dans MongoDB Compass, connectez-vous en local avec l'URI : `mongodb://localhost:27017`.
+
+5. Dans MongoDB Compass, connectez-vous en local avec l'URI : `mongodb://localhost:27017`.
 - Créez une nouvelle base de données nommée : `Spotilike`.
 - Ajoutez 3 collections : `albums`, `artistes`, `genres`, `morceaux` et `users` que vous compléterez avec les fichiers JSON correspondants trouvables dans le répertoire `backend\database`.
-5. Pour exécutez le backend la commande est :
+
+6. Pour exécutez le backend la commande est :
 ```cmd
 node .\backend\app\server.js 
 ```
-6. Pour exécutez le frontend aller dans `.\frontend\` et utiliser la commande :
+
+7. Pour exécutez le frontend aller dans `.\frontend\` et utiliser la commande :
 ```cmd
 npm run serve
 ```
-7. Pour tester les routes ouvrir `Insomnia` et importer le fichier `Insomnia.json` (Le backend doit être en cours d'execution).
+
+8. Pour tester les routes ouvrir `Insomnia` et importer le fichier `Insomnia.json` (Le backend doit être en cours d'execution).
 
 ## Base de données
 
