@@ -33,6 +33,8 @@ npm install
 - Créez une nouvelle base de données nommée : `Spotilike`.
 - Ajoutez 3 collections : `albums`, `artistes`, `genres`, `morceaux` et `users` que vous compléterez avec les fichiers JSON correspondants trouvables dans le répertoire `backend\database`.
 
+## Utiliser
+
 6. Pour exécutez le backend la commande est :
 ```cmd
 node .\backend\app\server.js 
@@ -47,4 +49,4 @@ npm run serve
 
 ## Base de données
 
-![Image de la base de données](backend/database/BDD.png)
+![Image de la base de données](backend/database/bdd.png)
