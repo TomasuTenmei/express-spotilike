@@ -1,0 +1,28 @@
+# Backend
+FROM node:18 AS build-backend
+WORKDIR /backend/app/
+COPY backend/package*.json ./
+RUN npm install
+COPY backend/ ./
+
+# Frontend
+FROM node:18 AS build-frontend
+WORKDIR /frontend/
+COPY frontend/package*.json ./
+RUN npm install
+COPY frontend/ ./
+
+# Execution
+FROM node:18
+WORKDIR ./
+
+COPY --from=build-backend /backend/app/ /backend/app/
+COPY --from=build-frontend /frontend/ /frontend/
+
+WORKDIR /backend/app/
+
+# Exposition
+EXPOSE 3141
+
+# Start
+CMD [ "sh", "-c", "node server.js & cd ../frontend && npm run serve"]

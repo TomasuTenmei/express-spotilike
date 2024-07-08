@@ -1,0 +1,19 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "app/server.js",
+    "dependencies": {
+      "express": "^4.17.1",
+      "dotenv": "^10.0.0",
+      "colors": "^1.4.0",
+      "cors": "^2.8.5",
+      "mongoose": "^6.1.10",
+      "express-async-handler": "^1.1.4",
+      "jsonwebtoken": "^8.5.1",
+      "bcryptjs": "^2.4.3"
+    },
+    "scripts": {
+      "start": "node app/server.js"
+    }
+  }
+  
